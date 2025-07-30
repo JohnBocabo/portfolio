@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+body {
+    font-family: "Poppins";
+}
+@theme {
+    --color-mint-500: oklch(0.72 0.11 178);
+    --color-green: #1CAC78; 
+}
+
+.glow-effect {
+  box-shadow: 
+    0 0 30px rgba(164, 164, 162, 0.8),
+    0 0 60px rgba(215, 215, 214, 0.6),
+    0 0 90px rgba(84, 84, 84, 0.4);
+}
+
+.glow-effect:hover {
+  box-shadow: 
+    0 0 30px rgba(164, 164, 162, 0.8),
+    0 0 60px rgba(194, 194, 184, 0.6),
+    0 0 90px rgba(215, 215, 212, 0.4);
+}
