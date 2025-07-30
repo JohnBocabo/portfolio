@@ -7,7 +7,7 @@ export default function Projects() {
         <h1 className="text-center text-4xl font-extrabold">Projects</h1>
 
         <div className="w-full border-2 p-6 rounded-md hover:shadow-lg transition-shadow duration-300">
-            <h1 className="text-3xl font-extrabold mb-2">SCYM - Youth Ministry Management System</h1>
+            <h1 className="text-3xl font-extrabold mb-2">SCYM - Santa Cruz Youth Ministry Information System <span className='text-sm '>(capstone project)</span></h1>
             <div className="h-[3px] rounded-sm w-full my-4 bg-white"></div>
             
             <p className="font-extralight text-justify mb-4 leading-relaxed">
@@ -23,7 +23,7 @@ export default function Projects() {
                     <li>QR code generation and attendance tracking</li>
                     <li>Event management and monitoring</li>
                     <li>AI-powered chatbot for user assistance</li>
-                    <li>Blog system for articles and announcements</li>
+                    <li>Blog system for articles</li>
                     <li>Automated email notification system</li>
                 </ul>
             </div>

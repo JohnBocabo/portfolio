@@ -1,12 +1,12 @@
 import imgURL from '../assets/self1.png';
 export default function Hero() {
   return (
-    <div className="flex gap-9 justify-between items-center w-full h-[500px]">
-      <div className="flex-1/2">
-        <h1 className="text-6xl font-extrabold ">John Bocabo</h1>
-        <div className="h-[8px] rounded-sm w-full my-5 bg-white"></div>
-        <h1 className="text-2xl font-semibold mb-2">Full-stack web developer</h1>
-        <p className="font-extralight text-justify">
+    <div className="flex flex-col lg:flex-row gap-8 lg:gap-2 mx-auto justify-center items-center w-full min-h-[400px] lg:h-[500px] py-8 lg:py-0">
+      <div className="flex-1 flex flex-col justify-center text-center lg:text-left order-2 lg:order-1">
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold">John Bocabo</h1>
+        <div className="h-[6px] lg:h-[8px] rounded-sm w-full my-4 lg:my-5 bg-white"></div>
+        <h2 className="text-xl md:text-2xl font-semibold mb-2">Full-stack web developer</h2>
+        <p className="font-extralight text-sm md:text-base text-center lg:text-justify px-4 lg:px-0">
           BSIT graduate with a passion for web development. Skilled in Laravel, React, NextJS and Git.
           Experienced in building dynamic and responsive web applications.
           Committed to continuous learning and improving coding skills.
@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
         
         {/* Social Links */}
-        <div className="flex gap-4 mt-6">
+        <div className="flex gap-4 mt-6 justify-center lg:justify-start">
           <a 
             href="https://github.com/JohnBocabo" 
             target="_blank" 
@@ -27,7 +27,7 @@ export default function Hero() {
           </a>
           
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/john-bocabo-b8a798240/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="w-8 h-8 flex items-center justify-center bg-blue-600 rounded-full hover:bg-blue-700 transition-colors"
@@ -38,14 +38,12 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <div className="w-full h-full flex items-center justify-center rounded-xl ">
-
-        <div className="w-full h-full flex items-center justify-center rounded-xl ">
-          <div className="rounded-md size-[400px] overflow-hidden rotate-3  transform hover:scale-110 hover:rotate-6 transition-all duration-300 ">
+      <div className="flex-1 flex items-center justify-center order-1 lg:order-2">
+        <div className="flex items-center justify-center">
+          <div className="rounded-full size-[280px] md:size-[350px] lg:size-[400px] overflow-hidden rotate-3 transform hover:scale-105 lg:hover:scale-110 hover:rotate-6 transition-all duration-300">
             <img src={imgURL} alt="self" className="size-full glow-effect" />
           </div>
         </div>
-
       </div>
     </div>
   )

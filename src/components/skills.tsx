@@ -104,6 +104,10 @@ export default function Skills() {
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/digitalocean/digitalocean-original.svg" alt="Digital Ocean" className="w-6 h-6" />
               <span className="text-xs font-medium">Digital Ocean</span>
             </div>
+            <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Digital Ocean" className="w-6 h-6" />
+              <span className="text-xs font-medium">Postman</span>
+            </div>
           </div>
         </div>
 
