@@ -10,7 +10,6 @@ export default function Hero() {
           BSIT graduate with a passion for web development. Skilled in Laravel, React, NextJS and Git.
           Experienced in building dynamic and responsive web applications.
           Committed to continuous learning and improving coding skills.
-          Let's connect and create something amazing together!
         </p>
         
         {/* Social Links */}

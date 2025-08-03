@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <div id="skills" className="flex gap-5 flex-col w-full mt-5">
-      <h1 className="text-center text-3xl font-extrabold">Skills & Technologies</h1>
+      <h1 className="text-center text-3xl font-extrabold">Skills & Technologies used</h1>
       
       {/* First Row */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
@@ -47,6 +47,10 @@ export default function Skills() {
             <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-lg hover:bg-gray-700 transition-colors">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" className="w-6 h-6" />
               <span className="text-xs font-medium">Next.js</span>
+            </div>
+            <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-lg hover:bg-gray-700 transition-colors">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Next.js" className="w-6 h-6" />
+              <span className="text-xs font-medium">Tailwind</span>
             </div>
           </div>
         </div>
