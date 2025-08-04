@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <div id="skills" className="flex gap-5 flex-col w-full mt-5">
-      <h1 className="text-center text-3xl font-extrabold">Skills & Technologies used</h1>
+      <h1 className="text-center text-3xl font-semibold">Skills & Technologies used</h1>
       
       {/* First Row */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">

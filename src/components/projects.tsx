@@ -4,10 +4,10 @@ export default function Projects() {
   return (
     <div id='projects' className="flex gap-9 flex-col w-full  min-h-[500px] mt-4">
         <div className="h-[3px] rounded-sm w-full my-4 bg-white"></div>
-        <h1 className="text-center text-4xl font-extrabold">Projects</h1>
+        <h1 className="text-center text-4xl font-semibold">Projects</h1>
 
         <div className="w-full border-2 p-6 rounded-md hover:shadow-lg transition-shadow duration-300">
-            <h1 className="text-3xl font-extrabold mb-2">SCYM - Santa Cruz Youth Ministry Information System <span className='text-sm '>(capstone project)</span></h1>
+            <h1 className="text-3xl font-semibold mb-2">SCYM - Santa Cruz Youth Ministry Information System <span className='text-sm '>(capstone project)</span></h1>
             <div className="h-[3px] rounded-sm w-full my-4 bg-white"></div>
             
             <p className="font-extralight text-justify mb-4 leading-relaxed">
@@ -56,7 +56,7 @@ export default function Projects() {
         </div>
 
         <div className="w-full border-2 p-6 rounded-md hover:shadow-lg transition-shadow duration-300">
-            <h1 className="text-3xl font-extrabold mb-2">FATE - Gender-Based Violence Complaints Management System</h1>
+            <h1 className="text-3xl font-semibold mb-2">FATE - Gender-Based Violence Complaints Management System</h1>
             <div className="h-[3px] rounded-sm w-full my-4 bg-white"></div>
             
             <p className="font-extralight text-justify mb-4 leading-relaxed">
