@@ -4,10 +4,10 @@ export default function Projects() {
   return (
     <div id='projects' className="flex gap-9 flex-col w-full  min-h-[500px] mt-4">
         <div className="h-[3px] rounded-sm w-full my-4 bg-white"></div>
-        <h1 className="text-center text-4xl font-semibold">Projects</h1>
+        <h1 className="text-center text-2xl md:text-3xl font-semibold">Projects</h1>
 
         <div className="w-full border-2 p-6 rounded-md hover:shadow-lg transition-shadow duration-300">
-            <h1 className="text-3xl font-semibold mb-2">SCYM - Santa Cruz Youth Ministry Information System <span className='text-sm '>(capstone project)</span></h1>
+            <h1 className="text-2xl md:text-3xl font-semibold mb-2">SCYM - Santa Cruz Youth Ministry Information System <span className='text-sm '>(capstone project)</span></h1>
             <div className="h-[3px] rounded-sm w-full my-4 bg-white"></div>
             
             <p className="font-extralight text-justify mb-4 leading-relaxed">
@@ -31,24 +31,24 @@ export default function Projects() {
             <div>
                 <h3 className="text-lg font-semibold mb-3">Technologies Used:</h3>
                 <div className="flex flex-wrap gap-3 items-center">
-                    <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-md">
-                        <img src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"} alt="Next.js" className="w-6 h-6" />
+                    <div className="flex items-center gap-2 bg-gray-800 px-2 y-1 md:px-3 md-py-1 rounded-md">
+                        <img src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"} alt="Next.js" className="size-4 md:size-6" />
                         <span className="text-sm">Next.js</span>
                     </div>
-                    <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-md">
-                        <img src="https://www.prisma.io/images/favicon-32x32.png" alt="Prisma" className="w-6 h-6" />
+                    <div className="flex items-center gap-2 bg-gray-800 px-2 y-1 md:px-3 md-py-1 rounded-md">
+                        <img src="https://www.prisma.io/images/favicon-32x32.png" alt="Prisma" className="size-4 md:size-6" />
                         <span className="text-sm">Prisma</span>
                     </div>
-                    <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-md">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" className="w-6 h-6" />
+                    <div className="flex items-center gap-2 bg-gray-800 px-2 y-1 md:px-3 md-py-1 rounded-md">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" className="size-4 md:size-6" />
                         <span className="text-sm">MySQL</span>
                     </div>
-                    <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-md">
-                        <img src={dialogflow} alt="Dialogflow" className="w-6 h-6 rounded" />
+                    <div className="flex items-center gap-2 bg-gray-800 px-2 y-1 md:px-3 md-py-1 rounded-md">
+                        <img src={dialogflow} alt="Dialogflow" className="size-4 md:size-6 rounded" />
                         <span className="text-sm">Dialogflow</span>
                     </div>
-                    <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-md">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-6 h-6" />
+                    <div className="flex items-center gap-2 bg-gray-800 px-2 y-1 md:px-3 md-py-1 rounded-md">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="size-4 md:size-6" />
                         <span className="text-sm">Nodemailer</span>
                     </div>
                 </div>
@@ -56,10 +56,10 @@ export default function Projects() {
         </div>
 
         <div className="w-full border-2 p-6 rounded-md hover:shadow-lg transition-shadow duration-300">
-            <h1 className="text-3xl font-semibold mb-2">FATE - Gender-Based Violence Complaints Management System</h1>
+            <h1 className="text-2xl md:text-3xl font-semibold mb-2">FATE - Gender-Based Violence Complaints Management System</h1>
             <div className="h-[3px] rounded-sm w-full my-4 bg-white"></div>
             
-            <p className="font-extralight text-justify mb-4 leading-relaxed">
+            <p className="font-extralight text-xs md:text-base text-justify mb-4 leading-relaxed">
                 A sensitive complaints management system developed during my OJT at the Gender and Development office. 
                 FATE provides a safe, confidential platform for students to report gender-based violence incidents like sexual harassment. 
                 The system serves as a crucial pre-step to formal complaint processes, addressing the challenge where students 
@@ -81,16 +81,16 @@ export default function Projects() {
             <div>
                 <h3 className="text-lg font-semibold mb-3">Technologies Used:</h3>
                 <div className="flex flex-wrap gap-3 items-center">
-                    <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-md">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel" className="w-6 h-6" />
+                    <div className="flex items-center gap-2 bg-gray-800 px-2 y-1 md:px-3 md-py-1 rounded-md">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="Laravel" className="size-4 md:size-6" />
                         <span className="text-sm">Laravel</span>
                     </div>
-                    <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-md">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-6 h-6" />
+                    <div className="flex items-center gap-2 bg-gray-800 px-2 y-1 md:px-3 md-py-1 rounded-md">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="size-4 md:size-6" />
                         <span className="text-sm">PostgreSQL</span>
                     </div>
-                    <div className="flex items-center gap-2 bg-gray-800 px-3 py-2 rounded-md">
-                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/alpinejs/alpinejs-original.svg" alt="Alpine.js" className="w-6 h-6" />
+                    <div className="flex items-center gap-2 bg-gray-800 px-2 y-1 md:px-3 md-py-1 rounded-md">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/alpinejs/alpinejs-original.svg" alt="Alpine.js" className="size-4 md:size-6" />
                         <span className="text-sm">Alpine.js</span>
                     </div>
                 </div>
