@@ -20,7 +20,7 @@ export default function Nav() {
     setIsOpen(false);
   };
   return (
-    <div className="flex justify-between items-center w-full bg-gray-900 text-white py-4">
+    <div className="flex justify-between items-center  w-full     py-4">
       <h1 className="text-2xl font-bold">JB</h1>
       <nav className="gap-6 px-2 hidden md:flex">
         <a href="#skills" className="hover:text-blue-400 transition-colors duration-300">Skills</a>

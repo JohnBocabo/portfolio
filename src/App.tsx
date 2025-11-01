@@ -13,7 +13,7 @@ function App() {
       <div className='container max-w-[1200px] mx-auto px-4'>
         <Nav />
         <Hero />
-        <div className='my-10 h-[5px] w-full rounded-sm bg-white'></div>
+        <div className='my-10 h-[5px] w-full rounded-sm '></div>
         <Skills />
         <Projects />
         <Contact />
